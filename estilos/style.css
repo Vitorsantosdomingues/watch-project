@@ -32,7 +32,7 @@ menu.cabeçalho-mobile {
     align-items: center;
     justify-content: space-evenly;
     backdrop-filter: blur(20px);
-    background-color: rgba(0, 0, 0, 0.435);
+    background-color: rgba(0, 0, 0, 0.341);
 }
 
 img.logo {
