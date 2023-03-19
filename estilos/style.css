@@ -31,7 +31,8 @@ menu.cabeçalho-mobile {
     height: 45px;
     align-items: center;
     justify-content: space-evenly;
-    background-color: black;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.435);
 }
 
 img.logo {
