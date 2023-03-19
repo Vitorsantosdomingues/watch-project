@@ -13,9 +13,9 @@ body {
 menu.cabeçalho {
     background-color: black;
     display: flex;
+    justify-content: space-between;
     width: 100vw;
     height: 70px;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -30,7 +30,7 @@ menu.cabeçalho-mobile {
 
 img.logo {
     display: flex;
-    padding-left: 5px;
+    margin-left: 10px;
     width: 45px;
     height: 45px;
 }
@@ -49,7 +49,20 @@ nav.principal-mobile > a {
     color: white;
 }
 
+nav.cadastro-login {
+    margin-right: 20px;
+}
+
+nav.cadastro-login > a {
+    color: white;
+    font-weight: bold;
+}
+
 nav.cadastro-login > a > p {
     display: inline-block;
-    margin: 0px 15px 0px 0px
+    margin: 0px 15px 0px 0px;
+    justify-items: center;
+    padding: 7px 15px;
+    border: 2px solid white;
+    border-radius: 25px;
 }
