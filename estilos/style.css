@@ -15,7 +15,7 @@ menu.cabeçalho {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 70px;
+    height: 75px;
     align-items: center;
 }
 
@@ -47,10 +47,6 @@ nav.principal-mobile > a > p{
 nav.principal-mobile > a {
     text-decoration: none;
     color: white;
-}
-
-nav.cadastro-login {
-    margin-right: 20px;
 }
 
 nav.cadastro-login > a {
