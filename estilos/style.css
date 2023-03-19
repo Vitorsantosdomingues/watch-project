@@ -46,7 +46,7 @@ nav.principal-desktop > a > p { /* Ativar para display: inline-block para deskto
 
 nav.principal-mobile > a > p{
     display: inline-block;
-    font-weight: bold;
+    font-size: .8em;
     margin: 0px 15px;
 }
 
