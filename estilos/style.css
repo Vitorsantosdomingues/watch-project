@@ -58,6 +58,11 @@ nav.principal-mobile > a {
     color: white;
 }
 
+nav.principal-mobile > a:hover p {
+    transform: translate(0px,-7px);
+    transition: 1s;
+}
+
 nav.cadastro-login > a {
     color: white;
 }
@@ -72,9 +77,26 @@ nav.cadastro-login > a > p {
     font-size: .9em;
 }
 
+#botaocadastro:hover {
+    transform: translateY(-10px);
+}
+
+nav.cadastro-login > a > p:hover {
+    color: black;
+    background-color: white;
+    transform: translateY(-10px);
+    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
+    transition: 1s;
+}
+    
 img.header {
     width: 100vw;
     height: 500px;
     object-fit: cover;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.583)
 }
+
+img.header:hover {
+    
+}
+
