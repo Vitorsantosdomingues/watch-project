@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(40, 40, 40);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+menu.cabeçalho {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+menu.cabeçalho-mobile {
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(26, 26, 26);
+}
+
+img.logo {
+    display: flex;
+    padding-left: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+nav.principal-desktop > a > p { /* Ativar para display: inline-block para desktop; */
+    display: none;
+}
+
+nav.principal-mobile > a > p{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+nav.principal-mobile > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav.cadastro-login > a > p {
+    display: inline-block;
+    margin: 0px 15px 0px 0px
+}
