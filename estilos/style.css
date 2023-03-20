@@ -111,7 +111,7 @@ h1.titulo {
     word-spacing: 10px;
     text-align: center;
     font-size: 1.2em;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -150,11 +150,12 @@ div.icones >i:hover {
 div.textos {
     display: flex;
     text-align: justify;
+    width: 100vw;
     padding: 10px;
-    width: 99vw;
     justify-content: space-around;
 }
 
 div.textos > p {
-    width: 30%;
+    width: 25%;
+    font-size: .9em;
 }
