@@ -14,7 +14,7 @@ body {
 }
 
 menu.cabeçalho {
-    background-color: black;
+    background-color: rgb(13, 13, 13);
     display: flex;
     justify-content: space-between;
     width: 100vw;
@@ -104,7 +104,7 @@ img.header:hover {
     
 }
 
-main.sobrenos > h1 {
+h1.titulo {
     color: rgb(0, 0, 0);
     padding: 5px;
     font-weight: 600;
@@ -113,6 +113,11 @@ main.sobrenos > h1 {
     font-size: 1.2em;
     width: 60%;
     margin: auto;
+}
+
+#h1vantagens {
+    padding: 20px;
+    color: black;
 }
 
 main.sobrenos > p {
@@ -126,20 +131,30 @@ section.sobre {
     word-spacing: 3px;
 }
 
-.material-icons {
-    font-size: 1.5em;
-    padding: 5px;
+div.icones {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+
 }
 
-div.icones {
+div.icones > i {
+    font-size: 2.3em;
+}
 
-    position: absolute;
+div.icones >i:hover {
+    transform: scale(1.5);
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+div.textos {
     display: flex;
-    right: 50%;
-    transform: translate(50%);
     text-align: justify;
-    width: auto;
-    font-size: 1.5em;
-    padding: 5px 0;
-    color: black; 
+    padding: 10px;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+div.textos > p {
+    width: 30%;
 }
