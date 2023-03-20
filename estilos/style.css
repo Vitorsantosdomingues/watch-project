@@ -133,6 +133,7 @@ section.sobre {
 
 div.icones {
     display: flex;
+    margin-top: 20px ;
     justify-content: space-around;
     width: 100vw;
 
@@ -151,7 +152,7 @@ div.textos {
     display: flex;
     text-align: justify;
     width: 100%;
-    padding: 10px;
+    padding-top: 20px;
     justify-content: space-around;
 }
 
